@@ -1,19 +1,21 @@
 # Session 1: Dart Language
 
-## Data types
+## Some built-in Data types
 
-`int`
-`double`
-`num`
-`bool`
+- Primitive Types:
+	- `int`
+	- `double`
+	- `num`
+	- `bool`
 
-`String`
-`List`
-`Set`
-`Map`
+- Reference Types (Data Structures):
+	- `String`
+	- `List`
+	- `Set`
+	- `Map`
 
-`dynamic` : Accepts any data type, changeable
-`var` : Accepts any data type, unchangeable
+- `dynamic` : Accepts any data type, changeable
+- `var` : Accepts any data type, unchangeable
 
 `Function` : functions can declared, passed as objects or as anonymous functions: ((){})
 
