@@ -1,28 +1,31 @@
-
 # Task #1
 
-## *Note: use the given declaration as it is, then add the implementation required*
-## *Submit your solution in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)*
+## _Note: use the given declaration as it is, then add the implementation required_
+
+## _Submit your solution in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)_
 
 ### Challenge 1:
-- implement the funtion `get range` where it should return the differnce between the **maximum** and the **minimum** values in the given list. 
-*(if there are none, return 0)*
+
+- implement the funtion `get range` where it should return the differnce between the **maximum** and the **minimum** values in the given list.
+  _(if there are none, return 0)_
 
 ```dart
     int getRange(List<int?>list){
         //write your code here
     }
 ```
+
 - example:
+
 ```bash
 input: [3, -3, 10, 0]
 output: 13
 ```
 
 ### Challenge 2:
-- Given a List of names, return the name that has occurred the most. 
-*(If there could be multiple answers, return any. At least 1 name is guaranteed to be in the List passed)*
 
+- Given a List of names, return the name that has occurred the most.
+  _(If there could be multiple answers, return any. At least 1 name is guaranteed to be in the List passed)_
 
 ```dart
     String getMostTrending(List<String>list){
@@ -31,14 +34,15 @@ output: 13
 ```
 
 - example:
+
 ```bash
 input: ["MoSalah", "Ahmed", "Rawan", "MoSalah", "Ali", "Mariam"]
 output: "MoSalah"
 ```
 
 ### Challenge 3:
-- Store *all of the following values* in *ONE* variable. then use `print(...)` to print the number of friends **Mohamed** has.
 
+- Store _all of the following values_ in _ONE_ variable. then use `print(...)` to print the number of friends **Mohamed** has.
 
 ```dart
 {
@@ -68,6 +72,7 @@ output: "MoSalah"
     ]
 }
 ```
+
 - Implement your code in the following function
 
 ```dart
@@ -76,11 +81,9 @@ void countMyFriends(){
 }
 ```
 
-
 ### Challenge 4 (BONUS):
-- 
-*Note: Copy the following code into your `main.dart`, then implement the function as instructed. Your output should match the given output sample.*
 
+- _Note: Copy the following code into your `main.dart`, then implement the function as instructed. Your output should match the given output sample._
 
 ```dart
 
