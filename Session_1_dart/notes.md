@@ -3,16 +3,19 @@
 ## Some built-in Data types
 
 - Primitive Types:
-	- `int`
-	- `double`
-	- `num`
-	- `bool`
+
+  - `int`
+  - `double`
+  - `num`
+  - `bool`
 
 - Reference Types (Data Structures):
-	- `String`
-	- `List`
-	- `Set`
-	- `Map`
+
+  - `String`
+  - `List`
+  - `Set`
+  - `Map`
+  - `Stack`
 
 - `dynamic` : Accepts any data type, changeable
 - `var` : Accepts any data type, unchangeable
@@ -34,7 +37,7 @@
    //will be initialized later. (null is caught in run-time)
 
    //some nullable field x
-   !x; //null check operator. guarantees value not to be null from this point on.
+   x!; //null check operator. guarantees value not to be null from this point on.
 
    x ?? 5; // provide a default value in case x is null
 ```
