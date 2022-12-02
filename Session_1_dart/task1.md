@@ -115,7 +115,7 @@ This data looks structured, for each string there is some corresponding value
 <details>
 <summary>Hint 2</summary>
 
-We need something that can store key-value pairs, and then we need to determine the suitable data type
+We need something that can store key-value pairs, and then we need to determine the suitable data type for the keys and values.
 
 </details>
 
@@ -177,14 +177,15 @@ Anas
 <details>
 <summary>Hint 1</summary>
 
-We normally sort lists using `sort()`, but at this case we have a user-defined class with multiple fields (age, GPA, name...). The program does NOT know that want to sort objects based on age or GPA. How can we make it know that?
+We normally sort lists using `sort()`, but at this case we have a user-defined class with multiple fields (age, GPA, name...). The program does NOT know that WE want to sort objects (students) based on age or GPA...etc. How can we make the program know that?
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Take strings as an example. To compare strings S1 and S1, we use S1.compareTo(S2). Now we want to compare students, can we perhaps define `compareTo()` to match our situation somehow?
+Take strings as an example. To compare strings S1 and S1, we use `S1.compareTo(S2)`. And that is how `sort()` function knows how to sort strings. Now we want to sort students, can we perhaps define some method that can tell `sort()` how to compare age and GPA for example?
+**If this didn't make sense, check hint 3 :)**
 
 </details>
 <details>
