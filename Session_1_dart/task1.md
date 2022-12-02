@@ -2,11 +2,20 @@
 
 ## _Note: use the given declaration as it is, then add the implementation required_
 
-## _After finishing, submit your `.dart` file in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)_
+## _Steps:_
+
+- Create a `main.dart` file, define the `main()` function
+- For each challenge
+  - Copy the provided code to the `main.dart` file
+  - Complete the code according to the challenge
+  - Of course, use the `main()` function to run and test your functions, **but do not forget to remove your testing code after you finish testing.**
+- At the 4-th challenge, copy the function `printUs`, copy the class `Student` and the `main()` definitions as they are, then add your code
+
+## _After finishing, submit your `main.dart` file in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)_
 
 ### Challenge 1:
 
-- implement the funtion `get range` where it should return the differnce between the **maximum** and the **minimum** values in the given list.
+- implement the funtion `getRange` where it should return the differnce between the **maximum** and the **minimum** values in the given list.
   _(if there are none, return 0)_
 
 ```dart
@@ -114,7 +123,7 @@ We need something that can store key-value pairs, and then we need to determine 
 
 - _Note: Copy the following code into your `main.dart`, then implement the function as instructed. Your output should match the given output sample._
 
-- We have a list of students, we need to order students' names by age, where the youngest comes first. After that, we need to re-order them so that the most Da7ee7 comes first. ie: those with greater GPA come before those with less GPA.
+- We have a list of students, we need to print students' names ordered by age, where the youngest comes first. After that, we need to re-order them so that the most Da7ee7 comes first. ie: those with greater GPA come before those with less GPA.
 
 ```dart
 
