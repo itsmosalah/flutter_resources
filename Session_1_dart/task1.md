@@ -184,7 +184,7 @@ We normally sort lists using `sort()`, but at this case we have a user-defined c
 <details>
 <summary>Hint 2</summary>
 
-Take strings as an example. To compare strings S1 and S1, we use `S1.compareTo(S2)`. And that is how `sort()` function knows how to sort strings. Now we want to sort students, can we perhaps define some method that can tell `sort()` how to compare age and GPA for example?
+Take strings as an example. To compare strings S1 and S1, we use `S1.compareTo(S2)`. And that is how `sort()` function knows how to sort strings. Now we want to sort students, can we perhaps define some method that can tell `sort()` how to compare students based on age and GPA?
 **If this didn't make sense, check hint 3 :)**
 
 </details>
