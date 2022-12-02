@@ -22,7 +22,12 @@ passed list: [3, -3, 10, 0, null]
 returned value: 13
 ```
 
-- hint: |Values are nullable, maybe we can filter out the nulls first?|
+<details>
+<summary>Hint</summary>
+
+Values are nullable, maybe we can filter out the nulls first?
+
+</details>
 
 ### Challenge 2:
 
@@ -35,8 +40,18 @@ returned value: 13
     }
 ```
 
-- hint 1: |Is there something that can link a name to number?|
-- hint 2: |If we can link a name to the number of times it occurred, we will know who occurred the most!|
+<details>
+<summary>Hint 1</summary>
+
+Is there something that can link a name to number?
+
+</details>
+<details>
+<summary>Hint 2</summary>
+
+If we can link a name to the number of times it occurred, we will know who occurred the most!
+
+</details>
 
 - example:
 
@@ -82,8 +97,18 @@ void countMyFriends() {
 }
 ```
 
-- hint 1: |This data looks structured, for each string there is some corresponding value|
-- hint 2: |We need something that can store key-value pairs, and then we need to determine the suitable data type|
+<details>
+<summary>Hint 1</summary>
+
+This data looks structured, for each string there is some corresponding value
+
+</details>
+<details>
+<summary>Hint 2</summary>
+
+We need something that can store key-value pairs, and then we need to determine the suitable data type
+
+</details>
 
 ### Challenge 4 (BONUS):
 
@@ -140,6 +165,23 @@ MoSalah
 Anas
 ```
 
-- hint 1: |We normally sort lists using `sort()`, but at this case we have a user-defined class with multiple fields (age, GPA, name...). The program does NOT know that want to sort objects based on age or GPA. How can we make it know that? |
-- hint 2: |Take strings as an example. To compare strings S1 and S1, we use S1.compareTo(S2). Now we want to compare students, can we perhaps define `compareTo()` to match our situation somehow?|
-  hint 3: |[Take a look here](https://stackoverflow.com/questions/53547997/sort-a-list-of-objects-in-flutter-dart-by-property-value)|
+<details>
+<summary>Hint 1</summary>
+
+We normally sort lists using `sort()`, but at this case we have a user-defined class with multiple fields (age, GPA, name...). The program does NOT know that want to sort objects based on age or GPA. How can we make it know that?
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Take strings as an example. To compare strings S1 and S1, we use S1.compareTo(S2). Now we want to compare students, can we perhaps define `compareTo()` to match our situation somehow?
+
+</details>
+<details>
+
+<summary>Hint 3</summary>
+
+[Take a look here](https://stackoverflow.com/questions/53547997/sort-a-list-of-objects-in-flutter-dart-by-property-value)
+
+</details>
