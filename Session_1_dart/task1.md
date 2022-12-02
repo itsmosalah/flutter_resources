@@ -2,7 +2,7 @@
 
 ## _Note: use the given declaration as it is, then add the implementation required_
 
-## _Submit your solution in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)_
+## _After finishing, submit your `.dart` file in this: [form](https://forms.gle/mKjMRwaeqKd1vWrE9)_
 
 ### Challenge 1:
 
@@ -18,9 +18,11 @@
 - example:
 
 ```bash
-input: [3, -3, 10, 0]
-output: 13
+passed list: [3, -3, 10, 0, null]
+returned value: 13
 ```
+
+- hint: |Values are nullable, maybe we can filter out the nulls first?|
 
 ### Challenge 2:
 
@@ -33,19 +35,23 @@ output: 13
     }
 ```
 
+- hint 1: |Is there something that can link a name to number?|
+- hint 2: |If we can link a name to the number of times it occurred, we will know who occurred the most!|
+
 - example:
 
 ```bash
-input: ["MoSalah", "Ahmed", "Rawan", "MoSalah", "Ali", "Mariam"]
-output: "MoSalah"
+list: ["MoSalah", "Ahmed", "Rawan", "MoSalah", "Ali", "Mariam"]
+returned value: "MoSalah"
 ```
 
 ### Challenge 3:
 
-- Store _all of the following values_ in _ONE_ variable. then use `print(...)` to print the number of friends **Mohamed** has.
+- Fill in the gaps: Determine a proper _Data type_ for the following initialization. then use `print()` to print the number of friends **Mohamed** has according to this data.
 
 ```dart
-{
+void countMyFriends() {
+  ______ data = {
     "id": 1,
     "name": "Mohamed",
     "age": 20,
@@ -70,20 +76,20 @@ output: "MoSalah"
         "common_interests": ["singing"]
       }
     ]
+  };
+
+  print(_____); //number of friends Mohamed has, which should be 3 according to the data
 }
 ```
 
-- Implement your code in the following function
-
-```dart
-void countMyFriends(){
-    //write your code here
-}
-```
+- hint 1: |This data looks structured, for each string there is some corresponding value|
+- hint 2: |We need something that can store key-value pairs, and then we need to determine the suitable data type|
 
 ### Challenge 4 (BONUS):
 
 - _Note: Copy the following code into your `main.dart`, then implement the function as instructed. Your output should match the given output sample._
+
+- We have a list of students, we need to order students' names by age, where the youngest comes first. After that, we need to re-order them so that the most Da7ee7 comes first. ie: those with greater GPA come before those with less GPA.
 
 ```dart
 
@@ -95,10 +101,10 @@ class Student {
 }
 
 void printUs(List<Student> students) {
-  print("Sorted increasing by age:");
+  print("Names after ordering by age (ascending):");
   // Print names sorted by age (increasing, ie. ascending)
 
-  print("\n. Sorted decreasing by GPA:");
+  print("\n. Names after ordering by GPA (descending):");
   // Print names sorted by GPA (decreasing, ie. descending)
 }
 
@@ -119,17 +125,21 @@ void main(List<String> args) {
 
 ```bash
 
-Sorted increasing by age:
+Names after ordering by age (ascending):
 Rawan
 MoSalah
 Ashraf
 Mariam
 Anas
 
-Sorted decreasing by GPA:
+Names after ordering by GPA (descending):
 Mariam
 Rawan
 Ashraf
 MoSalah
 Anas
 ```
+
+- hint 1: |We normally sort lists using `sort()`, but at this case we have a user-defined class with multiple fields (age, GPA, name...). The program does NOT know that want to sort objects based on age or GPA. How can we make it know that? |
+- hint 2: |Take strings as an example. To compare strings S1 and S1, we use S1.compareTo(S2). Now we want to compare students, can we perhaps define `compareTo()` to match our situation somehow?|
+  hint 3: |[Take a look here](https://stackoverflow.com/questions/53547997/sort-a-list-of-objects-in-flutter-dart-by-property-value)|
